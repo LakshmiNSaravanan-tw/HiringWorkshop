@@ -6,7 +6,7 @@ Problem Statement
 A college student with a group of friends enjoys purchasing products tailored to each person's needs. They frequently use an **e-commerce platform** that offers a wide range of transactions. Could you assist them in **calculating their total expenditure on purchases**? A **5% GST** gets added to the total worth of products.  
 
  Notes:
-- Handle **exceptions gracefully.  
+- Handle exceptions gracefully.  
 - Write **clean, modular, and scalable** code.  
 
 ---
@@ -18,7 +18,7 @@ A college student with a group of friends enjoys purchasing products tailored to
 ---
 
 ##  Prerequisites 
-- **Java 1.8 or later
+- Java 1.8 or later
 - **Gradle installed**  
 
 ---
