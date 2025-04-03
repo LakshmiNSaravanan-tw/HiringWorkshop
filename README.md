@@ -1,8 +1,8 @@
-# E-Commerce System  
+## E-Commerce System  
 
-This project is a simple E-Commerce System** developed in Java** using **Gradle**.  
+This project is a simple E-Commerce System developed in Java using **Gradle**.  
 
-Problem Statement
+## Problem Statement
 This is a simplified e-commerce system built to demonstrate core software engineering concepts including Object-Oriented Programming (OOP), Design Patterns, and Data Structures. It simulates real-world functionalities such as user management, shopping cart, product handling, order processing, and dynamic discounts
 
 ---
