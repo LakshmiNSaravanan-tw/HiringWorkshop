@@ -3,11 +3,7 @@
 This project is a simple E-Commerce System** developed in Java** using **Gradle**.  
 
 Problem Statement
-A college student with a group of friends enjoys purchasing products tailored to each person's needs. They frequently use an **e-commerce platform** that offers a wide range of transactions. Could you assist them in **calculating their total expenditure on purchases**? A **5% GST** gets added to the total worth of products.  
-
- Notes:
-- Handle exceptions gracefully.  
-- Write **clean, modular, and scalable** code.  
+This is a simplified e-commerce system built to demonstrate core software engineering concepts including Object-Oriented Programming (OOP), Design Patterns, and Data Structures. It simulates real-world functionalities such as user management, shopping cart, product handling, order processing, and dynamic discounts
 
 ---
 
@@ -65,4 +61,32 @@ java -jar build/libs/ecommerce-system-1.0-SNAPSHOT.jar
  **Function to calculate total cost** (stubbed for additional logic).  
 
 ---
+
+Absolutely! Here's a **clean and clear table** that summarizes the purpose of each class in your e-commerce project, ideal for explaining to freshers:
+
+---
+
+### 📦 **E-Commerce Project – Class Summary Table**
+
+| **Package**   | **Class Name**                    | **Purpose**                                                                 |
+|---------------|----------------------------------|------------------------------------------------------------------------------|
+| `users`       | `User`                           | Abstract base class with common attributes (`name`, `email`, `password`).  |
+|               | `Customer`, `Vendor`, `Admin`    | Inherit from `User` and implement role-specific behaviors.                 |
+|               | `UserProfile`                    | Holds additional user details (e.g., address, phone).                       |
+| `products`    | `Product`                        | Represents an individual product with fields like `id`, `name`, `price`.   |
+|               | `ProductFactory`                 | Uses **Factory Pattern** to create product instances dynamically.           |
+| `cart`        | `CartItem`                       | Represents an item added to the shopping cart.                             |
+|               | `ShoppingCart`                   | **Singleton Pattern**: One cart per user session; manages cart operations. |
+|               | `DiscountStrategy`               | Interface for the **Strategy Pattern** – flexible discount system.          |
+|               | `FlatDiscount`, `PercentageDiscount` | Concrete strategies for applying flat or percentage discounts.         |
+| `orders`      | `Order`                          | Represents a customer's placed order.                                       |
+|               | `OrderProcessor`                 | Manages order flow and notifies observers.                                 |
+|               | `OrderObserver`                  | Interface for **Observer Pattern**; listens to order events.               |
+|               | `EmailNotificationObserver`      | Sends email updates when order is placed.                                  |
+|               | `InventoryObserver`              | Updates inventory when an order is placed.                                 |
+| Root          | `MainClass`                      | Application entry point – demonstrates how all pieces work together.       |
+
+---
+
+Let me know if you want this converted into a **slide or handout format** as well!
 
