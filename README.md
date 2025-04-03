@@ -11,19 +11,19 @@ A college student with a group of friends enjoys purchasing products tailored to
 
 ---
 
-##  Technologies Used**  
+##  Technologies Used
 - **Java** - Core development language  
 - **Gradle** - Build tool  
 
 ---
 
-##  Prerequisites**  
+##  Prerequisites 
 - **Java 1.8 or later
 - **Gradle installed**  
 
 ---
 
-##  Build the Project**  
+##  Build the Project  
 To clean and build the project, run:  
 ```sh
 ./gradlew clean build
