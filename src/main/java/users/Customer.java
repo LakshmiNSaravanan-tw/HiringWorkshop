@@ -4,7 +4,7 @@ public class Customer extends User {
     private String password;
 
     public Customer(String name, String email, String password) {
-        super(name, email);
+        super(name, email,password);
         this.password = password;
     }
 

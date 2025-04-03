@@ -5,7 +5,7 @@ public class Vendor extends User{
     private String password;
 
     public Vendor(String name, String email, String password) {
-        super(name, email);
+        super(name, email,password);
         this.password = password;
     }
 

@@ -10,6 +10,6 @@ public class UserProfile {
     }
 
     public void displayProfile() {
-        System.out.println("User: " + user.getUsername() + ", Address: " + address);
+        System.out.println("User: " + user.getName() + ", Address: " + address);
     }
 }
